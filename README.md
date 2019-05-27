@@ -1,8 +1,8 @@
 # Getting Started with the Scoreboard
 
-a) Clone repo
-b) create postgress database
-c) create .env file:
+1. Clone repo
+2. Create postgress database
+3. Create .env file:
 
 eg...
 
@@ -12,6 +12,6 @@ ORIGIN= http://localhost:3000
 PORT=4000
 ```
 
-d) run ```npm i```
-e) run ```knex migrate:latest```
-f) ```npm run server``` to start server
+4.  run ```npm i```
+5.  run ```knex migrate:latest```
+6. ```npm run server``` to start server
